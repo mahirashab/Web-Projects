@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", monospace;
+}
+
+.img1 {
+    background-image: url(pic1.jpeg);
+    background-size: cover;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    opacity: .70;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.div {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 5px;
+    color: white;
+    top: 48%;
+}
+
+.span {
+    background-color: #111;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.span:hover {
+    background-color: rgba(17, 17, 17, 0.73);
+}
+
+.section-one {
+    background-color: rgba(245, 222, 179, 0.21);
+    text-align: center;
+    padding: 25px 50px;
+}
+
+.head {
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+
+
+.img2 {
+    background-image: url(pic2.jpeg);
+    background-size: cover;
+    min-height: 375px;
+    background-repeat: no-repeat;
+    opacity: .70;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.two, .three {
+    background-color: #282e34;
+    color: lightgray;
+}
+
+.img3 {
+    background-image: url(pic3.jpeg);
+    background-size: cover;
+    min-height: 375px;
+    background-repeat: no-repeat;
+    opacity: .70;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
