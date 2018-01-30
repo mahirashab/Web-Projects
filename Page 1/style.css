@@ -29,6 +29,7 @@
     background-color: #111;
     padding: 10px;
     text-transform: capitalize;
+    transition-duration: .5s;
 }
 
 .span:hover {
