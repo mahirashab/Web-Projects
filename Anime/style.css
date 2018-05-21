@@ -150,7 +150,7 @@ body {
     height: 8px;
     border-radius: 4px;
     background-color: #244356;
-/*    z-index: 3;*/
+    /*    z-index: 3;*/
 }
 
 .line-2 {
@@ -162,7 +162,7 @@ body {
     height: 8px;
     border-radius: 4px;
     background-color: #244356;
-/*    z-index: 3;*/
+    /*    z-index: 3;*/
 }
 
 .line-3 {
@@ -174,7 +174,7 @@ body {
     height: 8px;
     border-radius: 4px;
     background-color: #244356;
-/*    z-index: 3;*/
+    /*    z-index: 3;*/
 }
 
 .body-shadow {
@@ -188,7 +188,7 @@ body {
     box-sizing: border-box;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.6);
     z-index: 36;
-    
+
 }
 
 .bb8-head {
@@ -539,7 +539,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-} 
+}
 
 .star-box::before {
     content: "";
@@ -550,18 +550,21 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50% , -50%) rotate(90deg);
+    transform: translate(-50%, -50%) rotate(90deg);
 }
 
-.pink::after, .pink::before {
+.pink::after,
+.pink::before {
     background: #FF7761;
 }
 
-.blue::after, .blue::before {
+.blue::after,
+.blue::before {
     background: #449BAA;
 }
 
-.yollow::after, .yollow::before {
+.yollow::after,
+.yollow::before {
     background: #FDC23E;
 }
 
@@ -694,27 +697,3 @@ body {
     left: 21px;
     animation: move 0.5s 350ms linear infinite;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
