@@ -1,0 +1,136 @@
+body {
+    background-color: burlywood;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid gray;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.div {
+    background-color: bisque;
+    padding: 15px;
+    padding-top: 35px;
+    font-style: italic;
+    float: none;
+}
+
+.bar {
+    text-decoration: none;
+    color: cadetblue;
+    font-family: serif;
+    font-size: 18px;
+    border: 1px solid;
+    border-color: burlywood;
+    border-radius: 5px;
+    margin-right: 4px;
+    padding: 0px 3px 0px 3px;
+    text-shadow: 2px 2px 5px coral;
+}
+
+.bar:hover {
+    color: black;
+    background-color: rgba(132, 227, 195, 0.49);
+}
+
+.bar:visited {
+    color: dimgrey;
+}
+
+#h1 {
+    color: peru;
+    font-family: monospace;
+    font font-weight: 500;
+    text-align: center;
+    margin: 30px 0px 25px 0px;
+}
+
+#forbor {
+    border: 2px;
+    border-style: outset;
+    padding: 4px 4px 4px 4px;
+    border-color: burlywood;
+    text-shadow: 9px 5px 10px black;
+    border-radius: 7px;
+}
+
+#img1 {
+    border: 2px;
+    border-style: outset;
+    border-color: #ef880f;
+}
+
+#whole {
+    width: 100%;
+    height: 310px;
+}
+
+#div10 {
+    width: 75%;
+    height: 310px;
+}
+
+#beans_head {
+    display: inline;
+    font-style: italic;
+    font-family: cursive;
+    color: #f8971a;
+}
+
+.table {
+    height: 310px;
+    float: right;
+}
+
+#table {
+    border: 2px solid rgba(165, 42, 42, 0.75);
+}
+
+th,
+td {
+    border: 2px solid rgba(165, 42, 42, 0.55);
+    padding: 4px;
+}
+
+#producttop {
+    font-size: 20px;
+    border-top-style: double;
+    border-bottom-style: double;
+    text-align: center;
+    color: chocolate;
+    padding-top: 5px;
+    border: 2px;
+    border-style: outset;
+    padding: 4px 4px 4px 4px;
+    border-color: burlywood;
+    text-shadow: 9px 5px 10px black;
+    border-radius: 7px;
+    margin-bottom: 35px;
+}
+
+.product {
+    color: peru;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#images {
+    border: 1px solid aqua;
+    display: inline;
+}
+
+.des {
+    display: inline;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 15px;
+    color: darkgoldenrod;
+}
+
+#bottom {
+    text-align: right;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 17px;
+    color: cadetblue;
+}

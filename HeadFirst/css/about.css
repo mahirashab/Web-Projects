@@ -1,0 +1,207 @@
+ body {
+     background-color: burlywood;
+     margin-left: 20%;
+     margin-right: 20%;
+     border: 1px solid gray;
+     padding: 0px;
+     font-family: sans-serif;
+ }
+
+ .div {
+     background-color: bisque;
+     padding: 15px;
+     padding-top: 35px;
+     font-style: italic;
+ }
+
+ .bar {
+     text-decoration: none;
+     color: cadetblue;
+     font-family: serif;
+     font-size: 18px;
+     border: 1px solid;
+     border-color: burlywood;
+     border-radius: 5px;
+     margin-right: 4px;
+     padding: 0px 3px 0px 3px;
+     text-shadow: 2px 2px 5px coral;
+ }
+
+ .bar:hover {
+     color: black;
+     background-color: rgba(132, 227, 195, 0.49);
+ }
+
+ .bar:visited {
+     color: dimgrey;
+ }
+
+ #img1 {
+     border: 2px;
+     border-style: outset;
+     border-color: #ef880f;
+ }
+
+ #h1 {
+     color: peru;
+     font-family: monospace;
+     font font-weight: 500;
+     text-align: center;
+     margin: 30px 0px 25px 0px;
+ }
+
+ #forbor {
+     border: 2px;
+     border-style: outset;
+     padding: 4px 4px 4px 4px;
+     border-color: burlywood;
+     text-shadow: 9px 5px 10px black;
+     border-radius: 7px;
+ }
+
+ #h2 {
+     color: chocolate;
+     text-align: center;
+     font-family: monospace;
+     font-size: 35px;
+     text-decoration: underline;
+ }
+
+ .h3 {
+     color: black;
+     text-indent: 15px;
+     font-family: cursive;
+     border-bottom: 1px solid black;
+     display: inline;
+     text-transform: capitalize;
+     letter-spacing: 2px;
+ }
+
+ .para {
+     text-indent: 100px;
+     font-family: serif;
+     font-size: 18px;
+ }
+
+ #fir_div {
+     height: 300px;
+     width: 100%;
+     border: 2px;
+     border-style: outset;
+     border-color: rgba(0, 0, 0, 0.43);
+     background-color: rgba(247, 190, 123, 0.45);
+     margin-bottom: 33px;
+     border-radius: 7px;
+ }
+
+ #fir_img {
+     height: 400px;
+     width: 50%;
+     float: left;
+     padding: 5px;
+ }
+
+ #fir_para {
+     height: 400px;
+     width: 48%;
+     float: right;
+     padding-top: 10px;
+ }
+
+ #sec_div {
+     height: 300px;
+     width: 100%;
+     border: 2px;
+     border-style: outset;
+     border-color: rgba(0, 0, 0, 0.43);
+     background-color: rgba(247, 190, 123, 0.45);
+     margin-top: -90px;
+     border-radius: 7px;
+ }
+
+ #sec_img {
+     height: 400px;
+     width: 50%;
+     float: left;
+     padding: 5px;
+     margin-top: -90px;
+ }
+
+ #sec_para {
+     height: 400px;
+     width: 48%;
+     float: right;
+     padding-top: 10px;
+     margin-top: -90px;
+ }
+
+ #thi_div {
+     height: 300px;
+     width: 100%;
+     border: 2px;
+     border-style: outset;
+     border-color: rgba(0, 0, 0, 0.43);
+     background-color: rgba(247, 190, 123, 0.45);
+     margin-top: -40px;
+     border-radius: 7px;
+ }
+
+ #thi_img {
+     height: 400px;
+     width: 50%;
+     float: left;
+     padding: 5px;
+     margin-top: -92px;
+ }
+
+ #thi_para {
+     height: 400px;
+     width: 48%;
+     float: right;
+     padding-top: 10px;
+     margin-top: -92px;
+ }
+
+ #for_div {
+     height: 300px;
+     width: 100%;
+     border: 2px;
+     border-style: outset;
+     border-color: rgba(0, 0, 0, 0.43);
+     background-color: rgba(247, 190, 123, 0.45);
+     margin-top: -40px;
+     border-radius: 7px;
+ }
+
+ #for_img {
+     height: 400px;
+     width: 50%;
+     float: left;
+     padding: 5px;
+     margin-top: -92px;
+ }
+
+ #for_para {
+     height: 400px;
+     width: 48%;
+     float: right;
+     padding-top: 10px;
+     margin-top: -92px;
+ }
+
+ #span {
+     font-size: 23px;
+ }
+
+ .imgi {
+     border: 2px solid;
+     border-color: brown;
+ }
+
+ #bottom {
+     text-align: right;
+     font-family: monospace;
+     font-style: italic;
+     font-size: 17px;
+     color: cadetblue;
+ }

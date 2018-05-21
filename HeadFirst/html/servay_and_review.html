@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Servay and Review</title>
+    <link rel="stylesheet" href="../css/servay_and_review.css">
+
+</head>
+
+<body class="body">
+    <div class="div">
+
+        <nav class="navbar">
+            <a href="../index.html" class="bar">Home</a>
+            <a href="directions.html" class="bar">Directions</a>
+            <a href="elixir.html" class="bar">Elixers</a>
+            <a href="../index.html#contacts" class="bar">Contacts</a>
+            <a href="mission.html" class="bar">Missions</a>
+            <a href="servay_and_review.html" class="bar">Servay and Review</a>
+            <a href="about.html" class="bar">About</a>
+        </nav>
+
+        <h1 id="h1">
+            <span id="forbor">.Let us know your thoughts.</span>
+        </h1>
+
+        <form>
+            <fieldset class="user_info">
+                <legend class="legend">User Info</legend>
+                <label for="firstname">Firstname:</label>
+                <input type="text" name="firstname" placeholder="Firstname" />
+                <br />
+                <label for="lastname">Lastname:</label>
+                <input type="text" name="lastname" placeholder="Lastname" />
+                <br />
+                <label for="sex">Sex:</label>
+                <select name="gender" size="1">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <br />
+                <label for="country">Country:</label>
+                <input type="text" name="country" placeholder="Country" />
+                <br />
+                <label for="relegion">Rlegion:</label>
+                <input type="text" name="relegion" placeholder="Relegion" />
+                <br />
+                <label for="terms">Agree to our terms:-</label>
+                <input type="checkbox" name="terms" checked="checked">
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset class="review">
+                <legend class="legend">Review</legend>
+                <p>
+                    <label for="gui">How is our GUI?</label>
+                    <br />
+                    <input type="radio" name="gui">Good
+                    <input type="radio" name="gui" checked="checked">Very Good
+                    <input type="radio" name="gui">Bad
+                    <input type="radio" name="gui">Average
+                    <input type="radio" name="gui">Excellent
+                </p>
+
+                <p>
+                    <label for="service">How was our service?</label>
+                    <br />
+                    <input type="radio" name="service">good
+                    <input type="radio" name="service">bad
+                    <input type="radio" name="service">average
+                    <input type="radio" name="service" checked="checked">excellent
+                </p>
+
+                <input type="button" value="Done">
+
+            </fieldset>
+        </form>
+
+
+
+        <form>
+            <fieldset id="servay">
+                <legend class="legend">Servay</legend>
+                <p>
+                    <label for="preference">What di you prefer most?</label>
+                    <br />
+                    <input type="radio" name="preference">Tea
+                    <input type="radio" name="preference" checked="checked">Coffee
+                    <input type="radio" name="preference">Brandy
+                    <input type="radio" name="preference">Vodca
+                    <input type="radio" name="preference">Wine
+                </p>
+
+                <p>
+                    <label for="device">What are you working on?</label>
+                    <br />
+                    <input type="radio" name="device" checked="checked">PC
+                    <input type="radio" name="device">Android
+                    <input type="radio" name="device">Other
+                </p>
+
+                <p>
+                    <label for="devices">What is your favourite?</label>
+                    <input type="checkbox" name="devices" multiple="multiple" checked="checked">PC
+                    <input type="checkbox" name="devices" multiple="multiple">Android
+                    <input type="checkbox" name="devices" multiple="multiple">Other
+                </p>
+
+                <input type="button" value="Done">
+            </fieldset>
+        </form>
+
+        <form>
+            <fieldset id="comment">
+                <legend class="legend">Comment and Experience</legend>
+                <p>
+                    <label for="experience">Leave your experience:</label>
+                    <br />
+                    <textarea rows="10" cols="60" placeholder="Leave a Review" name="comment" class="textarea"></textarea>
+                    <br />
+                    <input type="button" value="Submit">
+                </p>
+                
+                <p>
+                    <label for="comment">Leave a comment:</label>
+                    <br />
+                    <textarea rows="10" cols="60" placeholder="Leave a Comment" name="comment" class="textarea"></textarea>
+                    <br />
+                    <input type="button" value="Submit">
+                </p>
+
+            </fieldset>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

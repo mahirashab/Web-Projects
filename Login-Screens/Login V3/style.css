@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.login-con {
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+
+header {
+    width: 100%;
+    height: 125px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #57b846;
+    margin-bottom: 60px;
+}
+
+.para {
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-top: 43px;
+    color: white;
+}
+
+.inputs {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.input {
+    height: 50px;
+    width: 100%;
+    text-indent: 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ebebeb;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.one {
+    margin-bottom: 19px;
+}
+
+.forgot {
+    text-align: right;
+    font-family: Ubuntu-Regular;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 23px;
+    color: rgba(128, 128, 128, 0.77);
+}
+
+.link {
+    color: #57b846;
+    text-decoration: none;
+}
+
+.link:hover {
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+    color: black;
+}
+
+.buttons {
+    width: 85%;
+    border: 1px solid black;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 165px;
+}
+
+.button {
+    width: 425px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #57b846;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.34);
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.foot-para {
+    font-size: 18px;
+    font-family: Ubuntu-Regular;
+    color: rgba(128, 128, 128, 0.77);
+    margin-bottom: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

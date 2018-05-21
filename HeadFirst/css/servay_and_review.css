@@ -1,0 +1,107 @@
+.body {
+    background-color: #d2b48c;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 3px solid gray;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.div {
+    background-color: bisque;
+    padding: 15px;
+    padding-top: 35px;
+    font-style: italic;
+}
+
+.bar {
+    text-decoration: none;
+    color: cadetblue;
+    font-family: serif;
+    font-size: 18px;
+    border: 1px solid;
+    border-color: burlywood;
+    border-radius: 5px;
+    margin-right: 4px;
+    padding: 0px 3px 0px 3px;
+    text-shadow: 2px 2px 5px coral;
+}
+
+.bar:hover {
+    color: black;
+    background-color: rgba(132, 227, 195, 0.49);
+}
+
+.bar:visited {
+    color: dimgrey;
+}
+
+#img1 {
+    border: 2px;
+    border-style: outset;
+    border-color: #ef880f;
+}
+
+#h1 {
+    color: peru;
+    font-family: monospace;
+    font font-weight: 500;
+    text-align: center;
+    margin: 30px 0px 25px 0px;
+}
+
+#forbor {
+    border: 2px;
+    border-style: outset;
+    padding: 4px 4px 4px 4px;
+    border-color: burlywood;
+    text-shadow: 9px 5px 10px black;
+    border-radius: 7px;
+}
+
+.user_info {
+    text-align: center;
+    color: dimgrey;
+    background-color: rgba(127, 255, 212, 0.56);
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.review {
+    text-align: center;
+    color: dimgrey;
+    background-color: rgba(127, 255, 212, 0.56);
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#servay {
+    text-align: center;
+    color: dimgrey;
+    background-color: rgba(127, 255, 212, 0.56);
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#comment {
+    text-align: center;
+    color: dimgrey;
+    background-color: rgba(127, 255, 212, 0.56);
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.legend {
+    color: chocolate;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.textarea {
+    background-color: rgba(255, 228, 196, 0.65);
+    color: blueviolet;
+    font-size: 13px;
+    font-family: cursive;
+    border: 2px dashed;
+    border-color: cadetblue;
+}
