@@ -1,0 +1,10 @@
+body {
+    background: #428bca;
+    margin: 0;
+}
+
+.logo {
+    color: #fff;
+    font-family: 'pacifico';
+    font-size: 4em;
+}
